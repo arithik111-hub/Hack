@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" role="img" aria-labelledby="title description">
+  <title id="title">Eclipse Zero</title>
+  <desc id="description">Original violet eclipse above a futuristic city at night.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080817"/>
+      <stop offset=".55" stop-color="#24144b"/>
+      <stop offset="1" stop-color="#070914"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#eac7ff" stop-opacity=".85"/>
+      <stop offset=".35" stop-color="#944cff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#944cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#241b50"/>
+      <stop offset="1" stop-color="#080b18"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v600H0z"/>
+  <circle cx="1110" cy="260" r="290" fill="url(#halo)"/>
+  <circle cx="1110" cy="260" r="178" fill="#d5a5ff"/>
+  <circle cx="1170" cy="205" r="174" fill="#100d27"/>
+  <path d="M0 410 80 370l73 50 86-117 66 105 85-61 72 70 87-136 91 119 82-64 75 78 69-124 85 105 91-50 72 54 88-132 78 74v259H0z" fill="#17132e"/>
+  <path d="m0 480 105-50 74 52 67-90 72 72 94-61 76 72 92-105 69 98 99-63 87 69 75-105 74 82 83-60 92 77 93-97 89 55v174H0z" fill="url(#city)"/>
+  <g fill="#c69cff" opacity=".9">
+    <path d="M124 461h8v20h-8zm141 9h8v17h-8zm189-6h8v17h-8zm122-39h8v18h-8zm157 44h8v17h-8zm148-14h8v18h-8zm164 21h8v17h-8zm130-43h8v17h-8z"/>
+  </g>
+  <g fill="#78d9ff" opacity=".82">
+    <path d="M210 530h7v15h-7zm218-28h7v16h-7zm173 37h7v15h-7zm255-19h7v15h-7zm203 28h7v15h-7zm190-46h7v15h-7z"/>
+  </g>
+  <path d="M0 535c310-70 517-47 756-11 317 48 515 42 844-30v106H0z" fill="#070912" opacity=".95"/>
+  <text x="112" y="240" fill="#fff" font-family="Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="9">ECLIPSE</text>
+  <text x="118" y="315" fill="#d4aaff" font-family="Arial,sans-serif" font-size="58" font-weight="300" letter-spacing="22">ZERO</text>
+  <text x="118" y="360" fill="#d8cee8" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">WHEN NIGHT FALLS, A NEW WORLD AWAKENS</text>
+</svg>
