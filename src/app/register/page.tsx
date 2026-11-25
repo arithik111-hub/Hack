@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { Icon } from "@/components/animex/Icon";
 
@@ -55,6 +56,16 @@ export default function RegisterPage() {
         </Link>
         <p className="eyebrow">JOIN ANIMEX</p>
         <h1 id="register-title">Create your account</h1>
+        {process.env.NEXT_PUBLIC_GOOGLE_LOGIN === "true" && (
+          <button
+            className="button google-login-button"
+            type="button"
+            onClick={() => signIn("google", { callbackUrl: "/" })}
+          >
+            Continue with Google
+          </button>
+        )}
+        <div className="auth-divider"><span>or continue with email</span></div>
         <form onSubmit={submit} noValidate>
           <label>
             Full name
